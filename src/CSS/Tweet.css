@@ -1,24 +1,66 @@
-.tweet-wrapper{
-    border: 1px solid black;
-    padding: 1rem;
-    width: 600px;
-    font-size: larger;
+/* Tweet.css */
+.tweet-wrapper {
+    border: 1px solid #e1e8ed;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
-.like-createdAt-wrapper{
+.tweet-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tweet-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tweet-content {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0f1419;
+}
+
+.edit-tweet button {
+    background-color: #1da1f2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.edit-tweet button:hover {
+    background-color: #1991da;
+}
+
+.like-createdAt-wrapper {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    color: #657786;
+    margin-top: 10px;
 }
 
-.likes, .created-at{
-    font-size: xx-small;
+.likes {
+    font-size: 14px;
 }
 
-.tweet-content  {
-    margin-bottom: 1rem;
-} 
-
-.tweet-edit-wrapper{
-    display: flex;
-    justify-content: space-between;
+.created-at {
+    font-size: 12px; /* Make the timestamp smaller */
+    color: #8899a6; /* Twitter's subtle gray color */
+    text-align: right;
 }

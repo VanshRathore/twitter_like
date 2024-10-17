@@ -1,4 +1,5 @@
 import React from "react";
+import '../CSS/LikesAndTimestamp.css';
 
 function LikesAndTimestamp({likeCount, createdAt}) {
     return (

@@ -1,0 +1,26 @@
+/* SortButton.css */
+.sort-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 20px 0;
+}
+
+.sort-tweet-btn {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sort-tweet-btn:hover {
+    background-color: #1991da;
+}
+
+.sort-tweet-btn:active {
+    background-color: #1578b5;
+}

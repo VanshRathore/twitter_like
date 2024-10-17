@@ -26,17 +26,7 @@ function Twitter() {
         )
     }, []);
 
-    // const handleEditTweet = (tweet) => { // this incoming tweet is the updated tweet
-    //     setTweets(tweets => 
-    //         tweets.map((currentTweet) => {
-    //             if(currentTweet.id === tweet.id) {
-    //                 return tweet;
-    //             } else {
-    //                 return currentTweet;
-    //             }
-    //         })
-    //     )
-    // };
+    
 
     const sortTweets = useCallback(() => {
         console.log(tweets);

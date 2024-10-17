@@ -1,6 +1,15 @@
-.tweet-list{
+.tweet-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.tweet-like-wrapper{
-    margin-bottom: 1rem;
+
+.tweet-like-wrapper {
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    width: 600px;
 }
